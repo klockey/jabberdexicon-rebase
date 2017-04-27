@@ -64,6 +64,7 @@ class App extends Component {
             <Todo />
           </Route>
         </Switch>
+        <Todo />
         <Footer m={1}>
           <Text>Built with &hearts; at The Iron Yard in Saint Petersburg, FL.</Text>
           <Space auto />
