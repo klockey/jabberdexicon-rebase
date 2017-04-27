@@ -1,13 +1,41 @@
-@import 'utility';
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+@import url('https://fonts.googleapis.com/css?family=Eagle+Lake');
 
-$base-text-size: 16px;
-$base-font-family: sans-serif;
+$base-text-size: 10px;
+$base-font-family: 'Eagle+Lake, sans-serif';
+
+* {
+  box-sizing: border-box;
+}
 
 html {
-  @include full-height;
+  height: 100%;
+
+  body,
+  #root,
+  .App {
+    min-height: 100%;
+  }
 }
 
 body {
   margin: 0;
-  font: $base-text-size / 1 $base-font-family;
+  font-size: $base-text-size;
+  font-family: $base-font-family;
+  line-height: 1.5;
+  color: #111;
+  background-color: #fff;
+}
+
+nav {
+  ul {
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+    padding-left: 0;
+  }
+}
+
+.top {
+  vertical-align: text-bottom;
 }
