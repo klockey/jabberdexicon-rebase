@@ -16,7 +16,6 @@ const Home = () =>
       description='A little glossary of jargon'
       m={1}
     />
-
     <WordOfTheDay />
   </div>
 

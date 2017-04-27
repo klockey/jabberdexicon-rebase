@@ -58,10 +58,10 @@ class App extends Component {
         <Switch>
           <Route exact path='/' component={Home} />
           <Route path='/browse/a'>
-            <Todo />
+            {/* <Todo />
           </Route>
           <Route path='/entry/:slug'>
-            <Todo />
+            <Todo /> */}
           </Route>
         </Switch>
         <Todo />
